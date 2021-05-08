@@ -36,13 +36,24 @@ body {
     justify-content: flex-end;
 }
 
-/* landing page */
-.header {
+/*  index.html landing page */
+.index-header {
     background-image: url("https://i.imgur.com/JDjDQfX.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
+/*  game.html landing page */
+
+.games-header {
+    background-image: url("https://i.imgur.com/12ykZ8O.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* text stuff */
 
 .overlay {
     position: absolute;
