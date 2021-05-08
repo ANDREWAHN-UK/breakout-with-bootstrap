@@ -17,14 +17,16 @@ body {
 /* navbar settings */
 .navbar {
     background:#6ab446;
+    
 }
 .nav-link,
 .navbar-brand {
     color: #fff;
     cursor: pointer;
+    margin-left: 5%;
 }
 .nav-link {
-    margin-right: 1em !important;
+    margin-right: 3em !important;
 }
 .nav-link:hover {
     color: #000;
