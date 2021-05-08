@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
+    text-decoration: none;
 }
 
 * {
@@ -82,4 +83,9 @@ body {
     border:1px solid #fff;
     background:#fff;
     color:#000;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
