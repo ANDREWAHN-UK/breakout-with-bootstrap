@@ -1,8 +1,20 @@
+/* general settings */
+
 body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
 }
+
+* {
+    margin: 0;
+    padding: 0;    
+    text-decoration: none;
+    outline: none;    
+}
+
+
+/* navbar settings */
 .navbar {
     background:#6ab446;
 }
@@ -19,4 +31,12 @@ body {
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+/* landing page */
+.header {
+    background-image: url("https://i.imgur.com/J9ws4tf.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
