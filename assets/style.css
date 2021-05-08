@@ -17,7 +17,7 @@ body {
 
 /* navbar settings */
 .navbar {
-    background:#6ab446;
+    background:#222;
     
 }
 .nav-link,
@@ -63,7 +63,7 @@ body {
 }
 
 .description h1 {
-    color: #6ab446;
+    color: #222;
 }
 
 .description p {
