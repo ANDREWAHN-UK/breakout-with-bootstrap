@@ -47,7 +47,8 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(206, 201, 201, 0.158);
+   
 }
 
 .description {
@@ -66,4 +67,17 @@ body {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #6bb4463a;;
+    background:#6bb4463a;
+    border-radius: 15px;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
 }
