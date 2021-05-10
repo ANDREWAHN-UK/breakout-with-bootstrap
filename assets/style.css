@@ -62,12 +62,18 @@ body {
     transform: translateX(-12.5%) translateY(7%) ;
     top: 15%;    
     width: 60vw;
+    
 }
 
 .carousel-item img{
     height: 60vh;
-    width: 100vw;
-    object-fit: cover;
+    width: 100%;
+    object-fit: cover;  
+}
+
+#carouselExampleCaptions{
+    text-align: center;
+    display: block;
 }
 /* text stuff */
 
