@@ -44,12 +44,17 @@ body {
     position: relative;
 }
 
-/*  game.html landing page */
+/*  games page */
 
 .games-header {
     background-image: url("https://i.imgur.com/d8tSQyE.jpg");
     background-position: center;
     position: relative;
+}
+
+.carousel-item img{
+    width: 60vw;
+    height: 60vh;;
 }
 
 /* text stuff */
