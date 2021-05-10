@@ -52,11 +52,23 @@ body {
     position: relative;
 }
 
-.carousel-item img{
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: auto;
+    transform: translateX(-12.5%) translateY(7%) ;
+    top: 15%;    
     width: 60vw;
-    height: 60vh;;
 }
 
+.carousel-item img{
+    height: 60vh;
+    width: 100vw;
+    object-fit: cover;
+}
 /* text stuff */
 
 .overlay {
