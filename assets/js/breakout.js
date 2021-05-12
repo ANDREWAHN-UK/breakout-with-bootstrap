@@ -151,7 +151,7 @@ function draw() {
             if (!lives) {
                 alert("GAME OVER");
                 document.location.reload();
-                clearInterval(interval); // Needed for Chrome to end game
+                clearInterval(interval); 
             } else {
                 x = canvas.width / 2;
                 y = canvas.height - 30;
