@@ -9,29 +9,33 @@ body {
 
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;
     text-decoration: none;
-    outline: none;    
+    outline: none;
 }
 
 
 /* navbar settings */
 .navbar {
-    background:#222;
-    
+    background: #222;
+
 }
+
 .nav-link,
 .navbar-brand {
     color: #fff;
     cursor: pointer;
     margin-left: 5%;
 }
+
 .nav-link {
     margin-right: 3em !important;
 }
+
 .nav-link:hover {
     color: #000;
 }
+
 .navbar-collapse {
     justify-content: flex-end;
 }
@@ -52,29 +56,30 @@ body {
     position: relative;
 }
 
-.carousel{
+.carousel {
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
     margin-left: 25%;
     margin-right: auto;
-    transform: translateX(-12.5%) translateY(7%) ;
-    top: 15%;    
+    transform: translateX(-12.5%) translateY(7%);
+    top: 15%;
     width: 60vw;
-    
+
 }
 
-.carousel-item img{
+.carousel-item img {
     height: 60vh;
     width: 100%;
-    object-fit: cover;  
+    object-fit: cover;
 }
 
-#carouselExampleCaptions{
+#carouselExampleCaptions {
     text-align: center;
     display: block;
 }
+
 /* text stuff */
 
 .overlay {
@@ -84,7 +89,7 @@ body {
     left: 0;
     top: 0;
     background: rgba(206, 201, 201, 0.158);
-   
+
 }
 
 .description {
@@ -106,19 +111,20 @@ body {
 }
 
 .description button {
-    border:1px solid #6bb4463a;;
-    background:#6bb4463a;
+    border: 1px solid #6bb4463a;
+    ;
+    background: #6bb4463a;
     border-radius: 15px;
-    color:#fff;
+    color: #fff;
 }
 
 .description button:hover {
-    border:1px solid #fff;
-    background:#fff;
-    color:#000;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
@@ -134,3 +140,23 @@ a{
     color: #666;
     padding: 40px 0;
 }
+
+/* breakout styling */
+
+
+#myCanvas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: auto;
+    transform: translateX(-12.5%) translateY(7%);
+    top: 15%;
+    width: 60vw;
+    height: 60%;
+    background-image: url(https://i.imgur.com/U6ABki6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
